@@ -46,4 +46,5 @@ ffi.cdef [[
 
   const EC_GROUP *EC_KEY_get0_group(const EC_KEY *key);
   int EC_KEY_set_group(EC_KEY *key, const EC_GROUP *group);
+  void EC_POINT_free(EC_POINT *pub);
 ]]
